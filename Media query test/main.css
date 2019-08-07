@@ -1,12 +1,15 @@
 .column {
-    width: 30%;
-    display: inline-block;
-    margin: 10px 10px;
+    float:left;
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    margin: 10px 0;
 }
 
-@media (min-widht: 992px){
+@media (min-width: 992px) {
     .column {
-        width: 100%;
-        margin: 10px 0px 10px;
+        background-color: blue;
+        width: 30%;
+        margin: 10px;
     }
 }
