@@ -1,4 +1,4 @@
-.box {
+/*.box {
     background-color: #000000;
     width: 150px;
     height: 0px;
@@ -18,5 +18,25 @@
 
     to {
         height: 150px;
+    }
+}*/
+
+.ball {
+    background-color: #0799d3;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: jump 0.5s cubic-bezier(.5, 0.05, 1, .5);
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 100px, 0);
     }
 }
