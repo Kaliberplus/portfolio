@@ -25,3 +25,18 @@ a {
 a:hover {
     color: #000000;
 }
+
+.box2 {
+    background-color: #79797f;
+    width: 150px;
+    height: 150px;
+    transition-property: background-color;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.box2:hover {
+    width: 150px;
+    background-color: #e84610;
+}
