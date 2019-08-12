@@ -20,3 +20,14 @@
         transform: rotate(359deg);
     }
 }
+
+.element {
+    background-color: #0997d3;
+	width: 200px;
+    height: 200px;
+    transition: all 1s ease-in;
+}
+
+.element:hover {
+    transform: translateX(100%);
+}
