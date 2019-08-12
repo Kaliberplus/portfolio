@@ -7,4 +7,10 @@
 
 img {
     margin: 50px;
+    
+    transition: all 1s ease-in;
+}
+
+img:hover {
+    transform: scale(2, 2);
 }
