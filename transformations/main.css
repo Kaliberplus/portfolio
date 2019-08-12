@@ -1,20 +1,13 @@
-/*.box {
-    width: 100px;
-    height: 100px;
-    background-color: #e84610;
-    transform: translate(100px, 100px, 0);
-}*/
-
-/*img {
+.scale {
     margin: 50px;
     transition: all 1s ease-in;
 }
 
-img:hover {
+.scale:hover {
     transform: scale(2, 2);
-}*/
+}
 
-img {
+.spinning {
     margin: 50px;
     animation: spin 2s infinite linear;
 }
