@@ -9,7 +9,7 @@
 button {
     border: none;
     background-color: #0997d3;
-    width: 150;
+    width: 150px;
     height: 50px;
     color: #ffffff;
     text-transform: uppercase;
@@ -41,4 +41,13 @@ button {
 .dropdownLink:hover {
     color: #ffffff;
     background-color: #a0a0a3;
+}
+
+.dropdown {
+    width: 150px;
+    position: relative;
+}
+
+.dropdown:hover button {
+    background-color: #018ec5;
 }
